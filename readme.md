@@ -52,9 +52,6 @@ Visualización dinámica de productos tecnológicos con:
 - 🎧 Audio
 - 🖥️ Monitores
 - ⌨️ Accesorios
-- 🎮 Consolas
-- ⌚ Smartwatches
-- 📱 Tablets
 
 ---
 
@@ -68,9 +65,10 @@ Todos
 ├── Portátiles
 ├── Smartphones
 ├── Monitores
-├── Accesorios
-├── Tablets
-└── Smartwatches
+├── Audio
+└── Accesorios
+
+ 
 
 🛒 Carrito de compras
 Sistema de carrito interactivo que permite:
