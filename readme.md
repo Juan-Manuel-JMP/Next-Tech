@@ -76,7 +76,8 @@ Sistema de carrito interactivo que permite:
 ➕ Agregar productos
 ➖ Modificar cantidades
 🗑️ Eliminar productos
-💰 Calcular el total
-🔢 Mostrar cantidad de productos
-🔒 Simular proceso de checkout
-<p align="center"> <img src="./img/carrito.png" width="75%" alt="Carrito de compras"> </p>
+💰 Te Calcula el total
+🔢 Te Muestra la cantidad de productos
+🔒 Simula el proceso de checkout
+
+FIN! Gracias!!
