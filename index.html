@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>💥Next Tech⚡</title>
+    <link rel="icon" type="image/svg+xml" href="./img/logo.webp">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- FontAwesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    >
+
+    <!-- SweetAlert2 -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css"
+    >
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+    <header class="header">
+
+        <div class="nav-container">
+
+            <a href="#inicio" class="logo">
+                
+                <i class="fa-solid fa-cube"></i>
+                Next<span>Tech</span>
+            </a>
+
+            <nav class="nav-menu" id="nav-menu">
+
+                <a href="#inicio">Inicio</a>
+
+                <a href="#catalogo">Productos</a>
+
+                <a href="#contacto">Soporte</a>
+
+            </nav>
+
+            <div class="nav-actions">
+
+                <button
+                    id="btn-carrito"
+                    class="btn-carrito"
+                    type="button"
+                    title="Ver carrito"
+                    aria-label="Ver carrito"
+                >
+                    <i class="fa-solid fa-cart-shopping"></i>
+
+                    <span id="contador-carrito">
+                        0
+                    </span>
+                </button>
+
+                <button
+                    id="menu-toggle"
+                    class="menu-toggle"
+                    type="button"
+                    aria-label="Abrir menú"
+                    aria-expanded="false"
+                >
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- =========================
+         HERO
+    ========================== -->
+    <section id="inicio" class="hero">
+
+        <div class="hero-content">
+
+            <span class="badge-nuevo">
+                <i class="fa-solid fa-bolt"></i>
+                Última Generación Tecnológica
+            </span>
+
+            <h1>
+                Diseña tu Propio Futuro
+            </h1>
+
+            <p>
+                Encuentra componentes de alta gama, portátiles
+                de rendimiento extremo y gadgets inteligentes
+                al mejor precio del mercado.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a
+                    href="#catalogo"
+                    class="btn-primary"
+                >
+                    Explorar Catálogo
+                </a>
+
+                <a
+                    href="#caracteristicas"
+                    class="btn-secondary"
+                >
+                    Saber Más
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         CATEGORÍAS
+    ========================== -->
+    <section class="categorias-section">
+
+        <div class="container">
+
+            <h3>
+                Filtrar por Categoría
+            </h3>
+
+            <div class="filtro-botones">
+
+                <button
+                    class="filtro-btn activo"
+                    data-categoria="todos"
+                    type="button"
+                >
+                    Todos
+                </button>
+
+                <button
+                    class="filtro-btn"
+                    data-categoria="Portatiles"
+                    type="button"
+                >
+                    Portátiles
+                </button>
+
+                <button
+                    class="filtro-btn"
+                    data-categoria="Smartphones"
+                    type="button"
+                >
+                    Smartphones
+                </button>
+
+                <button
+                    class="filtro-btn"
+                    data-categoria="Audio"
+                    type="button"
+                >
+                    Audio
+                </button>
+
+                <button
+                    class="filtro-btn"
+                    data-categoria="Monitores"
+                    type="button"
+                >
+                    Monitores
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         CATÁLOGO
+    ========================== -->
+    <main
+        id="catalogo"
+        class="main-container"
+    >
+
+        <div class="section-title">
+
+            <h2>
+                Catálogo Destacado
+            </h2>
+
+            <p>
+                Productos con garantía oficial y envío express
+            </p>
+
+        </div>
+
+        <div
+            id="grid-productos"
+            class="grid-productos"
+        ></div>
+
+    </main>
+
+
+    <!-- =========================
+         CARACTERÍSTICAS
+    ========================== -->
+    <section
+        id="caracteristicas"
+        class="features-section"
+    >
+
+        <div class="container">
+
+            <h2>
+                ¿Por qué elegir Next Tech?
+            </h2>
+
+            <div class="features-grid">
+
+                <div class="feature-card">
+
+                    <i class="fa-solid fa-truck-fast"></i>
+
+                    <h3>
+                        Envío Express
+                    </h3>
+
+                    <p>
+                        Recibe tus dispositivos en menos de 48 horas
+                        asegurados contra daños.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <i class="fa-solid fa-shield-halved"></i>
+
+                    <h3>
+                        Garantía Oficial
+                    </h3>
+
+                    <p>
+                        Todos nuestros equipos cuentan con 1 año
+                        de garantía directa de fábrica.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <i class="fa-solid fa-headset"></i>
+
+                    <h3>
+                        Soporte Técnico 24/7
+                    </h3>
+
+                    <p>
+                        Especialistas listos para resolver cualquier
+                        duda sobre hardware o software.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         MODAL CARRITO
+    ========================== -->
+    <div
+        id="modal-carrito"
+        class="modal"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="titulo-carrito"
+    >
+
+        <div class="modal-content cart-modal-content">
+
+            <button
+                id="cerrar-carrito"
+                class="cerrar"
+                type="button"
+                aria-label="Cerrar carrito"
+            >
+                &times;
+            </button>
+
+            <h2 id="titulo-carrito">
+                <i class="fa-solid fa-cart-shopping"></i>
+                - Tu Carrito
+            </h2>
+
+            <div
+                id="lista-carrito"
+                class="lista-carrito"
+            ></div>
+
+            <div class="carrito-footer">
+
+                <div class="total-container">
+
+                    <div>
+                        <span class="total-label">
+                            - Total a Pagar 💵
+                        </span>
+
+                        <small>
+                            - Impuestos y Envío Calculados al Finalizar
+                        </small>
+                    </div>
+
+                    <h3>
+                        $<span id="total-carrito">0.00</span>
+                    </h3>
+
+                </div>
+
+                <button
+                    id="btn-checkout"
+                    class="btn-success"
+                    type="button"
+                >
+                    <i class="fa-solid fa-lock"></i>
+                    Ir a la Pasarela de Pago
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         MODAL PREVIEW / LIGHTBOX
+    ========================== -->
+    <div
+        id="modal-preview"
+        class="modal preview-modal"
+        role="dialog"
+        aria-modal="true"
+        aria-label="Vista previa del producto"
+    >
+
+        <div class="modal-content preview-content">
+
+            <button
+                id="cerrar-preview"
+                class="cerrar preview-close"
+                type="button"
+                aria-label="Cerrar vista previa"
+            >
+                &times;
+            </button>
+
+            <div id="preview-detalles"></div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+    <footer
+        id="contacto"
+        class="footer"
+    >
+
+        <div class="footer-container">
+
+            <div class="footer-col">
+
+                <h3>
+                    <i class="fa-solid fa-cube"></i>
+                    Next Tech
+                </h3>
+
+                <p>
+                    Liderando la revolución tecnológica con equipos de última generación.
+                </p>
+
+            </div>
+
+
+            <div class="footer-col">
+
+                <h4>
+                    Enlaces Rápidos
+                </h4>
+
+                <a href="#inicio">
+                    Inicio
+                </a>
+
+                <a href="#catalogo">
+                    Productos
+                </a>
+
+            </div>
+
+
+            <div class="footer-col">
+
+                <h4>
+                    Contacto
+                </h4>
+
+                <p>
+                    <i class="fa-solid fa-envelope"></i>
+                    soporte@nexustech.com
+                </p>
+
+                <p>
+                    <i class="fa-solid fa-phone"></i>
+                    11-5638-9011
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                &copy; 2026 - Tienda Next Tech.
+                Todos los Derechos Reservados.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- App -->
+    <script src="./js/app.js"></script>
+
+</body>
+</html>
