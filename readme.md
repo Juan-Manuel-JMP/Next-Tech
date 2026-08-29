@@ -1,9 +1,3 @@
-# ⚡ Next Tech
-
-<p align="center">
-  <img src="./img/fondo_web.webp" width="50%" alt="Next Tech">
-</p>
-
 <h1 align="center">
   💥 Next Tech ⚡
 </h1>
@@ -21,7 +15,7 @@
 
 ---
 
-## 🚀 Sobre el proyecto
+## 🚀 Sobre el Proyecto
 
 **Next Tech** es una tienda online enfocada en productos tecnológicos de última generación.
 
@@ -51,7 +45,6 @@ Visualización dinámica de productos tecnológicos con:
 - 📱 Smartphones
 - 🎧 Audio
 - 🖥️ Monitores
-- ⌨️ Accesorios
 
 ---
 
@@ -65,19 +58,18 @@ Todos
 ├── Portátiles
 ├── Smartphones
 ├── Monitores
-├── Audio
-└── Accesorios
+└── Audio
 
  
 
 🛒 Carrito de compras
 Sistema de carrito interactivo que permite:
 
-➕ Agregar productos
-➖ Modificar cantidades
-🗑️ Eliminar productos
-💰 Te Calcula el total
-🔢 Te Muestra la cantidad de productos
-🔒 Simula el proceso de checkout
+➕ Agrego productos
+➖ Modifico cantidades
+🗑️ Elimino productos
+💰 Calculo el total
+🔢 Muestro la cantidad de productos
+🔒 Simulo el proceso de checkout
 
 FIN! Gracias!!
