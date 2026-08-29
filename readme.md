@@ -36,7 +36,7 @@ La aplicación permite explorar diferentes productos, filtrarlos por categoría,
 ## 🖥️ Vista previa
 
 <p align="center">
-  <img src="./img/home.png" width="90%" alt="Next Tech - Página principal">
+  <img src="./img/logo.webp" width="50%" alt="Next Tech - Página principal">
 </p>
 
 ---
