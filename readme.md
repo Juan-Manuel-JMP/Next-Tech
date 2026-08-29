@@ -67,10 +67,8 @@ Todos
 │
 ├── Portátiles
 ├── Smartphones
-├── Audio
 ├── Monitores
 ├── Accesorios
-├── Consolas
 ├── Tablets
 └── Smartwatches
 
