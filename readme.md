@@ -1,7 +1,7 @@
 # ⚡ Next Tech
 
 <p align="center">
-  <img src="img/fondo_web.png" width="100%" alt="Next Tech">
+  <img src="./img/fondo_web.webp" width="50%" alt="Next Tech">
 </p>
 
 <h1 align="center">
